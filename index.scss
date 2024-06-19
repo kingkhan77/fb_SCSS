@@ -271,10 +271,16 @@ hr{
 }
 
 .plus{
-    border:1px solid rgb(202, 185, 185); 
+    border:1px solid rgb(212, 197, 197); 
     border-radius: 2px;
     background-color:#f5f6f8 ;
     margin-top: -4px;
+    color: #7f8082;
+
+    &:hover{
+        text-decoration: none !important;
+        background-color: #ebeef0;
+    }
 
     h2{
         height: 1px; 
