@@ -26,11 +26,14 @@ body{
 @media only screen and (max-width : $response1){
     .main{
         margin-left: 0;
+        padding-right: 60px;
     }
 }
 
 @media only screen and (max-width : $response2){
     .main{
+        padding-right: 60px ;
+        width: auto;
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -105,6 +108,12 @@ img{
     margin-left: 85px;
     margin-top: 50px;
     align-content: center; 
+}
+
+@media only screen and (max-width : $response2){
+    .right{
+        margin-right: 20px;
+    }
 }
 
 .loginform{
@@ -239,7 +248,7 @@ hr{
     }
 
     hr{
-        margin: -1px 0px;
+        margin: -4px 0px;
     }
 }
 
@@ -270,6 +279,14 @@ hr{
     }
 }
 
+@media only screen and (max-width: 875px) {
+    .languages {
+        li{
+            margin-bottom: 6px;
+        }
+    }
+}
+
 .plus{
     border:1px solid rgb(212, 197, 197); 
     border-radius: 2px;
@@ -280,6 +297,10 @@ hr{
     &:hover{
         text-decoration: none !important;
         background-color: #ebeef0;
+    }
+    a{
+        color: #7f8082;
+        text-decoration: none;
     }
 
     h2{
